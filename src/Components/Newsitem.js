@@ -3,7 +3,7 @@ import React from 'react'
 const Newsitem = (props) => {
   let { title, description, imgUrl, url, date, source } = props;
   return (
-    <div>
+    <div className='mx-3 my-2'>
       <div className="card">
         <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style={{ zIndex: 1 }}>
           {source}
